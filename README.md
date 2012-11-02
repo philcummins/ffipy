@@ -1,4 +1,4 @@
 ffipy
 =====
 
-Fintie Fault Inversion
+Finite Fault Inversion
