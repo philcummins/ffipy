@@ -1,0 +1,16 @@
+This contains some code that I use for finite fault inversions (ffi). These mainly take the form of python wrappers for the following to sets of fortran codes:
+
+1) dcs_python.f: The Okada code for calculated ealstic deformation due to dislocations in an elastic half-space
+
+2) kiklib.f: The Kikuchi code for body wave synthetic seismograms
+
+3) surf.f: Code for caulculating seismic surface wave synthetics. This has nto yet been wrapped in pythin.
+
+The python routines in ffi.py that are probably of most interest are:
+
+fault_grid(): Calculates a grid of subfault for a given fault geometry
+
+fault_disp(): Calculates surface displacement for dislocation on a grid of subfaults as given by fault_grid(). Note that coordinate transformation, etc, is done in the corresponding fortran subroutine fault_disp() in dcs_python.f
+
+Finally, there is a python script ffi_plot.py that is used for plotting finite fault solutions. I'm afraid this is uncommented at the moment but I'll try to change that soon
+
