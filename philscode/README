@@ -12,5 +12,5 @@ fault_grid(): Calculates a grid of subfault for a given fault geometry
 
 fault_disp(): Calculates surface displacement for dislocation on a grid of subfaults as given by fault_grid(). Note that coordinate transformation, etc, is done in the corresponding fortran subroutine fault_disp() in dcs_python.f
 
-Finally, there is a python script ffi_plot.py that is used for plotting finite fault solutions. I'm afraid this is uncommented at the moment but I'll try to change that soon
+Finally, there is a python script ffiplot.py that is used for plotting finite fault solutions. I'm afraid this is uncommented at the moment but I'll try to change that soon
 
