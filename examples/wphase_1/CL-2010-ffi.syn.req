@@ -1,0 +1,17 @@
+eplat -35.85
+eplon -72.72
+epdepth 35. 
+origin_time 2010-2-27-6:34:14
+before_p 1500.
+after_p 3600.0 
+half_duration 60.
+time_shift 58.94
+maxdist 90.
+channel LHZ
+network II IU G GE
+mrr 0.93e24
+mtt 0.01e24
+mpp -0.94e24
+mrt -0.01e24
+mrp -1.72e24
+mtp -0.15e24

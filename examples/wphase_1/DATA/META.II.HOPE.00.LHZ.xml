@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<StaMessage xmlns:iris="http://www.www.iris.edu/ws/schemas/station/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.data.scec.org/xml/station/" xsi:schemaLocation="http://www.data.scec.org/xml/station/20120307/ http://www.data.scec.org/xml/station/20120307/station.xsd http://www.iris.edu/ws/schemas/station/2012/03/22/ http://www.iris.edu/ws/schemas/station/2012/03/22/station_comments.xsd">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: http://www.iris.edu/ws/station - version: 1.3.8</Module>
+ <ModuleURI>http://www.iris.edu/ws/station/query?network=II&amp;level=resp&amp;station=HOPE&amp;location=00&amp;starttime=2010-02-27T06%3A34%3A14.000&amp;endtime=2010-02-27T09%3A34%3A14.000&amp;channel=LHZ</ModuleURI>
+ <SentDate>2012-10-10T05:15:37</SentDate>
+ <Network net_code="II">
+  <StartDate>1986-01-01T00:00:00</StartDate>
+  <EndDate>2500-12-12T23:59:59</EndDate>
+  <Description>Global Seismograph Network (GSN - IRIS/IDA)</Description>
+  <TotalNumberStations>46</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station net_code="II" sta_code="HOPE">
+   <StationEpoch>
+    <StartDate>1996-12-10T00:00:00</StartDate>
+    <EndDate>2599-12-31T23:59:59</EndDate>
+    <iris:StationComments>
+     <iris:Comment>
+      <StartDate>1998-12-31T00:00:00</StartDate>
+      <EndDate>1999-01-01T00:00:00</EndDate>
+      <Text>Day contains positive leap second (86401 s/day).</Text>
+      <Class>S</Class>
+     </iris:Comment>
+    </iris:StationComments>
+    <Lat>-54.2836</Lat>
+    <Lon>-36.4879</Lon>
+    <Elevation>20.0</Elevation>
+    <Site>
+     <Name>Hope Point, South Georgia Island</Name>
+    </Site>
+    <Operator>
+     <Agency>(GSN) Global Seismograph Network (IRIS/IDA)</Agency>
+     <Contact>
+      <Name>UNKNOWN</Name>
+     </Contact>
+    </Operator>
+    <CreationDate>1996-12-10T00:00:00</CreationDate>
+    <TotalNumberChannels>64</TotalNumberChannels>
+    <SelectedNumberChannels>1</SelectedNumberChannels>
+    <Channel chan_code="LHZ" restricted="0" loc_code="00">
+     <CreationDate>1996-12-10T00:00:00</CreationDate>
+     <Epoch iris:restricted="0">
+      <StartDate>2010-02-05T10:21:00</StartDate>
+      <EndDate>2011-03-13T11:59:59</EndDate>
+      <Comment>S/N #99445</Comment>
+      <Lat>-54.2836</Lat>
+      <Lon>-36.4879</Lon>
+      <Elevation>20.0</Elevation>
+      <Depth>0.0</Depth>
+      <Azimuth>0.0</Azimuth>
+      <Dip>-90.0</Dip>
+      <Output>CONTINUOUS</Output>
+      <Output>GEOPHYSICAL</Output>
+      <SampleRate>1.0</SampleRate>
+      <ClockDrift>5.0E-5</ClockDrift>
+      <CalibrationUnit>V</CalibrationUnit>
+      <Sensor>
+       <EquipType>Streckeisen STS-2 Seismometer</EquipType>
+      </Sensor>
+      <InstrumentSensitivity>
+       <SensitivityValue>4.20076E9</SensitivityValue>
+       <Frequency>0.05</Frequency>
+       <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+      </InstrumentSensitivity>
+      <Response stage="1">
+       <PolesZeros>
+        <InputUnits>M/S - Velocity in Meters Per Second</InputUnits>
+        <OutputUnits>V - Volts</OutputUnits>
+        <PzTransferFunctionType>LAPLACE (HZ)</PzTransferFunctionType>
+        <NormalizationFactor>377260000000000000000000</NormalizationFactor>
+        <NormalizationFreq>.05</NormalizationFreq>
+        <Pole number="0">
+         <Real>-.005889</Real>
+         <Imaginary>-.005889</Imaginary>
+        </Pole>
+        <Pole number="1">
+         <Real>-.005889</Real>
+         <Imaginary>.005889</Imaginary>
+        </Pole>
+        <Pole number="2">
+         <Real>-1.74275</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="3">
+         <Real>-15.6672</Real>
+         <Imaginary>-70.4738</Imaginary>
+        </Pole>
+        <Pole number="4">
+         <Real>-15.6672</Real>
+         <Imaginary>70.4738</Imaginary>
+        </Pole>
+        <Pole number="5">
+         <Real>-88.6175</Real>
+         <Imaginary>-9.55725</Imaginary>
+        </Pole>
+        <Pole number="6">
+         <Real>-88.6175</Real>
+         <Imaginary>9.55725</Imaginary>
+        </Pole>
+        <Pole number="7">
+         <Real>-221.385</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="8">
+         <Real>-785.589</Real>
+         <Imaginary>-750.097</Imaginary>
+        </Pole>
+        <Pole number="9">
+         <Real>-785.589</Real>
+         <Imaginary>750.097</Imaginary>
+        </Pole>
+        <Pole number="10">
+         <Real>-991.058</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="11">
+         <Real>-1099.6</Real>
+         <Imaginary>-1465.5</Imaginary>
+        </Pole>
+        <Pole number="12">
+         <Real>-1099.6</Real>
+         <Imaginary>1465.5</Imaginary>
+        </Pole>
+        <Pole number="13">
+         <Real>-40.6</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="14">
+         <Real>-48.3</Real>
+         <Imaginary>12.9271</Imaginary>
+        </Pole>
+        <Pole number="15">
+         <Real>-48.3</Real>
+         <Imaginary>-12.9271</Imaginary>
+        </Pole>
+        <Pole number="16">
+         <Real>-35.3554</Real>
+         <Imaginary>35.3553</Imaginary>
+        </Pole>
+        <Pole number="17">
+         <Real>-35.3554</Real>
+         <Imaginary>-35.3553</Imaginary>
+        </Pole>
+        <Pole number="18">
+         <Real>-12.94</Real>
+         <Imaginary>48.2965</Imaginary>
+        </Pole>
+        <Pole number="19">
+         <Real>-12.94</Real>
+         <Imaginary>-48.2965</Imaginary>
+        </Pole>
+        <Zero number="20">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="21">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="22">
+         <Real>-1.71092</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="23">
+         <Real>-46.887</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="24">
+         <Real>-88.3469</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="25">
+         <Real>-108.846</Real>
+         <Imaginary>-27.9317</Imaginary>
+        </Zero>
+        <Zero number="26">
+         <Real>-108.846</Real>
+         <Imaginary>27.9317</Imaginary>
+        </Zero>
+        <Zero number="27">
+         <Real>-940.128</Real>
+         <Imaginary>-542.878</Imaginary>
+        </Zero>
+        <Zero number="28">
+         <Real>-940.128</Real>
+         <Imaginary>542.878</Imaginary>
+        </Zero>
+       </PolesZeros>
+       <StageSensitivity>
+        <SensitivityValue>1500</SensitivityValue>
+        <Frequency>.05</Frequency>
+        <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="2">
+       <StageSensitivity>
+        <SensitivityValue>.473059</SensitivityValue>
+        <Frequency>.05</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="3">
+       <Coefficients>
+        <InputUnits>V - Volts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>100</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1480000</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="4">
+       <Coefficients>
+        <InputUnits>COUNTS - Digital Counts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>-.000000337741</Numerator>
+        <Numerator>-.000000862909</Numerator>
+        <Numerator>-.00000154942</Numerator>
+        <Numerator>-.00000204037</Numerator>
+        <Numerator>-.00000160361</Numerator>
+        <Numerator>.000000876701</Numerator>
+        <Numerator>.00000673039</Numerator>
+        <Numerator>.00001709</Numerator>
+        <Numerator>.0000322292</Numerator>
+        <Numerator>.0000507341</Numerator>
+        <Numerator>.0000687046</Numerator>
+        <Numerator>.0000792878</Numerator>
+        <Numerator>.0000729083</Numerator>
+        <Numerator>.0000385256</Numerator>
+        <Numerator>-.000033899</Numerator>
+        <Numerator>-.000149824</Numerator>
+        <Numerator>-.000305915</Numerator>
+        <Numerator>-.000486084</Numerator>
+        <Numerator>-.000658988</Numerator>
+        <Numerator>-.000778327</Numerator>
+        <Numerator>-.000787102</Numerator>
+        <Numerator>-.000626427</Numerator>
+        <Numerator>-.000248597</Numerator>
+        <Numerator>.000367088</Numerator>
+        <Numerator>.00119836</Numerator>
+        <Numerator>.00216751</Numerator>
+        <Numerator>.00313647</Numerator>
+        <Numerator>.00391289</Numerator>
+        <Numerator>.00426971</Numerator>
+        <Numerator>.00397829</Numerator>
+        <Numerator>.00285239</Numerator>
+        <Numerator>.000797673</Numerator>
+        <Numerator>-.00214136</Numerator>
+        <Numerator>-.00574629</Numerator>
+        <Numerator>-.00961061</Numerator>
+        <Numerator>-.0131538</Numerator>
+        <Numerator>-.015667</Numerator>
+        <Numerator>-.0163887</Numerator>
+        <Numerator>-.0146032</Numerator>
+        <Numerator>-.00975057</Numerator>
+        <Numerator>-.00153046</Numerator>
+        <Numerator>.0100149</Numerator>
+        <Numerator>.0244562</Numerator>
+        <Numerator>.0409804</Numerator>
+        <Numerator>.0584477</Numerator>
+        <Numerator>.0754974</Numerator>
+        <Numerator>.090692</Numerator>
+        <Numerator>.10268</Numerator>
+        <Numerator>.110357</Numerator>
+        <Numerator>.113</Numerator>
+        <Numerator>.110357</Numerator>
+        <Numerator>.10268</Numerator>
+        <Numerator>.090692</Numerator>
+        <Numerator>.0754974</Numerator>
+        <Numerator>.0584477</Numerator>
+        <Numerator>.0409804</Numerator>
+        <Numerator>.0244562</Numerator>
+        <Numerator>.0100149</Numerator>
+        <Numerator>-.00153046</Numerator>
+        <Numerator>-.00975057</Numerator>
+        <Numerator>-.0146032</Numerator>
+        <Numerator>-.0163887</Numerator>
+        <Numerator>-.015667</Numerator>
+        <Numerator>-.0131538</Numerator>
+        <Numerator>-.00961061</Numerator>
+        <Numerator>-.00574629</Numerator>
+        <Numerator>-.00214136</Numerator>
+        <Numerator>.000797673</Numerator>
+        <Numerator>.00285239</Numerator>
+        <Numerator>.00397829</Numerator>
+        <Numerator>.00426971</Numerator>
+        <Numerator>.00391289</Numerator>
+        <Numerator>.00313647</Numerator>
+        <Numerator>.00216751</Numerator>
+        <Numerator>.00119836</Numerator>
+        <Numerator>.000367088</Numerator>
+        <Numerator>-.000248597</Numerator>
+        <Numerator>-.000626427</Numerator>
+        <Numerator>-.000787102</Numerator>
+        <Numerator>-.000778327</Numerator>
+        <Numerator>-.000658988</Numerator>
+        <Numerator>-.000486084</Numerator>
+        <Numerator>-.000305915</Numerator>
+        <Numerator>-.000149824</Numerator>
+        <Numerator>-.000033899</Numerator>
+        <Numerator>.0000385256</Numerator>
+        <Numerator>.0000729083</Numerator>
+        <Numerator>.0000792878</Numerator>
+        <Numerator>.0000687046</Numerator>
+        <Numerator>.0000507341</Numerator>
+        <Numerator>.0000322292</Numerator>
+        <Numerator>.00001709</Numerator>
+        <Numerator>.00000673039</Numerator>
+        <Numerator>.000000876701</Numerator>
+        <Numerator>-.00000160361</Numerator>
+        <Numerator>-.00000204037</Numerator>
+        <Numerator>-.00000154942</Numerator>
+        <Numerator>-.000000862909</Numerator>
+        <Numerator>-.000000337741</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>100</InputSampleRate>
+        <Factor>5</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - Digital Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="5">
+       <Coefficients>
+        <InputUnits>COUNTS - Digital Counts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>-.0000000111359</Numerator>
+        <Numerator>-.000000378395</Numerator>
+        <Numerator>-.00000134125</Numerator>
+        <Numerator>-.000002902</Numerator>
+        <Numerator>-.00000441872</Numerator>
+        <Numerator>-.00000433851</Numerator>
+        <Numerator>-.000000378577</Numerator>
+        <Numerator>.00000955232</Numerator>
+        <Numerator>.0000256732</Numerator>
+        <Numerator>.0000443664</Numerator>
+        <Numerator>.0000569499</Numerator>
+        <Numerator>.0000505029</Numerator>
+        <Numerator>.0000117698</Numerator>
+        <Numerator>-.0000658972</Numerator>
+        <Numerator>-.000174289</Numerator>
+        <Numerator>-.000284269</Numerator>
+        <Numerator>-.0003463</Numerator>
+        <Numerator>-.000301137</Numerator>
+        <Numerator>-.00010127</Numerator>
+        <Numerator>.000261167</Numerator>
+        <Numerator>.000729382</Numerator>
+        <Numerator>.0011724</Numerator>
+        <Numerator>.00140249</Numerator>
+        <Numerator>.0012245</Numerator>
+        <Numerator>.000510478</Numerator>
+        <Numerator>-.000720217</Numerator>
+        <Numerator>-.00224522</Numerator>
+        <Numerator>-.0036394</Numerator>
+        <Numerator>-.00435222</Numerator>
+        <Numerator>-.00386099</Numerator>
+        <Numerator>-.00186972</Numerator>
+        <Numerator>.00150362</Numerator>
+        <Numerator>.00562255</Numerator>
+        <Numerator>.00937321</Numerator>
+        <Numerator>.0113815</Numerator>
+        <Numerator>.0103845</Numerator>
+        <Numerator>.00567801</Numerator>
+        <Numerator>-.00248444</Numerator>
+        <Numerator>-.0126751</Numerator>
+        <Numerator>-.0223684</Numerator>
+        <Numerator>-.0283482</Numerator>
+        <Numerator>-.0273955</Numerator>
+        <Numerator>-.0171114</Numerator>
+        <Numerator>.00332994</Numerator>
+        <Numerator>.0327106</Numerator>
+        <Numerator>.067743</Numerator>
+        <Numerator>.103544</Numerator>
+        <Numerator>.134531</Numerator>
+        <Numerator>.155557</Numerator>
+        <Numerator>.163</Numerator>
+        <Numerator>.155557</Numerator>
+        <Numerator>.134531</Numerator>
+        <Numerator>.103544</Numerator>
+        <Numerator>.067743</Numerator>
+        <Numerator>.0327106</Numerator>
+        <Numerator>.00332994</Numerator>
+        <Numerator>-.0171114</Numerator>
+        <Numerator>-.0273955</Numerator>
+        <Numerator>-.0283482</Numerator>
+        <Numerator>-.0223684</Numerator>
+        <Numerator>-.0126751</Numerator>
+        <Numerator>-.00248444</Numerator>
+        <Numerator>.00567801</Numerator>
+        <Numerator>.0103845</Numerator>
+        <Numerator>.0113815</Numerator>
+        <Numerator>.00937321</Numerator>
+        <Numerator>.00562255</Numerator>
+        <Numerator>.00150362</Numerator>
+        <Numerator>-.00186972</Numerator>
+        <Numerator>-.00386099</Numerator>
+        <Numerator>-.00435222</Numerator>
+        <Numerator>-.0036394</Numerator>
+        <Numerator>-.00224522</Numerator>
+        <Numerator>-.000720217</Numerator>
+        <Numerator>.000510478</Numerator>
+        <Numerator>.0012245</Numerator>
+        <Numerator>.00140249</Numerator>
+        <Numerator>.0011724</Numerator>
+        <Numerator>.000729382</Numerator>
+        <Numerator>.000261167</Numerator>
+        <Numerator>-.00010127</Numerator>
+        <Numerator>-.000301137</Numerator>
+        <Numerator>-.0003463</Numerator>
+        <Numerator>-.000284269</Numerator>
+        <Numerator>-.000174289</Numerator>
+        <Numerator>-.0000658972</Numerator>
+        <Numerator>.0000117698</Numerator>
+        <Numerator>.0000505029</Numerator>
+        <Numerator>.0000569499</Numerator>
+        <Numerator>.0000443664</Numerator>
+        <Numerator>.0000256732</Numerator>
+        <Numerator>.00000955232</Numerator>
+        <Numerator>-.000000378577</Numerator>
+        <Numerator>-.00000433851</Numerator>
+        <Numerator>-.00000441872</Numerator>
+        <Numerator>-.000002902</Numerator>
+        <Numerator>-.00000134125</Numerator>
+        <Numerator>-.000000378395</Numerator>
+        <Numerator>-.0000000111359</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>20</InputSampleRate>
+        <Factor>4</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>2</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - Digital Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="6">
+       <Coefficients>
+        <InputUnits>COUNTS - Digital Counts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>-.000000337741</Numerator>
+        <Numerator>-.000000862909</Numerator>
+        <Numerator>-.00000154942</Numerator>
+        <Numerator>-.00000204037</Numerator>
+        <Numerator>-.00000160361</Numerator>
+        <Numerator>.000000876701</Numerator>
+        <Numerator>.00000673039</Numerator>
+        <Numerator>.00001709</Numerator>
+        <Numerator>.0000322292</Numerator>
+        <Numerator>.0000507341</Numerator>
+        <Numerator>.0000687046</Numerator>
+        <Numerator>.0000792878</Numerator>
+        <Numerator>.0000729083</Numerator>
+        <Numerator>.0000385256</Numerator>
+        <Numerator>-.000033899</Numerator>
+        <Numerator>-.000149824</Numerator>
+        <Numerator>-.000305915</Numerator>
+        <Numerator>-.000486084</Numerator>
+        <Numerator>-.000658988</Numerator>
+        <Numerator>-.000778327</Numerator>
+        <Numerator>-.000787102</Numerator>
+        <Numerator>-.000626427</Numerator>
+        <Numerator>-.000248597</Numerator>
+        <Numerator>.000367088</Numerator>
+        <Numerator>.00119836</Numerator>
+        <Numerator>.00216751</Numerator>
+        <Numerator>.00313647</Numerator>
+        <Numerator>.00391289</Numerator>
+        <Numerator>.00426971</Numerator>
+        <Numerator>.00397829</Numerator>
+        <Numerator>.00285239</Numerator>
+        <Numerator>.000797673</Numerator>
+        <Numerator>-.00214136</Numerator>
+        <Numerator>-.00574629</Numerator>
+        <Numerator>-.00961061</Numerator>
+        <Numerator>-.0131538</Numerator>
+        <Numerator>-.015667</Numerator>
+        <Numerator>-.0163887</Numerator>
+        <Numerator>-.0146032</Numerator>
+        <Numerator>-.00975057</Numerator>
+        <Numerator>-.00153046</Numerator>
+        <Numerator>.0100149</Numerator>
+        <Numerator>.0244562</Numerator>
+        <Numerator>.0409804</Numerator>
+        <Numerator>.0584477</Numerator>
+        <Numerator>.0754974</Numerator>
+        <Numerator>.090692</Numerator>
+        <Numerator>.10268</Numerator>
+        <Numerator>.110357</Numerator>
+        <Numerator>.113</Numerator>
+        <Numerator>.110357</Numerator>
+        <Numerator>.10268</Numerator>
+        <Numerator>.090692</Numerator>
+        <Numerator>.0754974</Numerator>
+        <Numerator>.0584477</Numerator>
+        <Numerator>.0409804</Numerator>
+        <Numerator>.0244562</Numerator>
+        <Numerator>.0100149</Numerator>
+        <Numerator>-.00153046</Numerator>
+        <Numerator>-.00975057</Numerator>
+        <Numerator>-.0146032</Numerator>
+        <Numerator>-.0163887</Numerator>
+        <Numerator>-.015667</Numerator>
+        <Numerator>-.0131538</Numerator>
+        <Numerator>-.00961061</Numerator>
+        <Numerator>-.00574629</Numerator>
+        <Numerator>-.00214136</Numerator>
+        <Numerator>.000797673</Numerator>
+        <Numerator>.00285239</Numerator>
+        <Numerator>.00397829</Numerator>
+        <Numerator>.00426971</Numerator>
+        <Numerator>.00391289</Numerator>
+        <Numerator>.00313647</Numerator>
+        <Numerator>.00216751</Numerator>
+        <Numerator>.00119836</Numerator>
+        <Numerator>.000367088</Numerator>
+        <Numerator>-.000248597</Numerator>
+        <Numerator>-.000626427</Numerator>
+        <Numerator>-.000787102</Numerator>
+        <Numerator>-.000778327</Numerator>
+        <Numerator>-.000658988</Numerator>
+        <Numerator>-.000486084</Numerator>
+        <Numerator>-.000305915</Numerator>
+        <Numerator>-.000149824</Numerator>
+        <Numerator>-.000033899</Numerator>
+        <Numerator>.0000385256</Numerator>
+        <Numerator>.0000729083</Numerator>
+        <Numerator>.0000792878</Numerator>
+        <Numerator>.0000687046</Numerator>
+        <Numerator>.0000507341</Numerator>
+        <Numerator>.0000322292</Numerator>
+        <Numerator>.00001709</Numerator>
+        <Numerator>.00000673039</Numerator>
+        <Numerator>.000000876701</Numerator>
+        <Numerator>-.00000160361</Numerator>
+        <Numerator>-.00000204037</Numerator>
+        <Numerator>-.00000154942</Numerator>
+        <Numerator>-.000000862909</Numerator>
+        <Numerator>-.000000337741</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>5</InputSampleRate>
+        <Factor>5</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>2</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - Digital Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+     </Epoch>
+    </Channel>
+   </StationEpoch>
+  </Station>
+ </Network>
+</StaMessage>

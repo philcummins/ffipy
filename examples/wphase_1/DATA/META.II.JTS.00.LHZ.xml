@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<StaMessage xmlns:iris="http://www.www.iris.edu/ws/schemas/station/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.data.scec.org/xml/station/" xsi:schemaLocation="http://www.data.scec.org/xml/station/20120307/ http://www.data.scec.org/xml/station/20120307/station.xsd http://www.iris.edu/ws/schemas/station/2012/03/22/ http://www.iris.edu/ws/schemas/station/2012/03/22/station_comments.xsd">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: http://www.iris.edu/ws/station - version: 1.3.8</Module>
+ <ModuleURI>http://www.iris.edu/ws/station/query?network=II&amp;level=resp&amp;station=JTS&amp;location=00&amp;starttime=2010-02-27T06%3A34%3A14.000&amp;endtime=2010-02-27T09%3A34%3A14.000&amp;channel=LHZ</ModuleURI>
+ <SentDate>2012-10-10T05:15:38</SentDate>
+ <Network net_code="II">
+  <StartDate>1986-01-01T00:00:00</StartDate>
+  <EndDate>2500-12-12T23:59:59</EndDate>
+  <Description>Global Seismograph Network (GSN - IRIS/IDA)</Description>
+  <TotalNumberStations>46</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station net_code="II" sta_code="JTS">
+   <StationEpoch>
+    <StartDate>1995-04-23T00:00:00</StartDate>
+    <EndDate>2599-12-31T23:59:59</EndDate>
+    <iris:StationComments>
+     <iris:Comment>
+      <StartDate>1995-04-23T01:46:06</StartDate>
+      <EndDate>1995-04-23T18:09:13</EndDate>
+      <Text>Station Maintenance.  Tests may be in progress.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-12-11T00:00:00</StartDate>
+      <EndDate>1995-12-11T23:59:59</EndDate>
+      <Text>Station Maintenance.  Tests may be in progress.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-05-09T11:06:08</StartDate>
+      <EndDate>1995-05-16T06:00:56</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-05-18T11:06:08</StartDate>
+      <EndDate>1995-06-07T20:26:29</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-06-09T12:26:09</StartDate>
+      <EndDate>1995-06-25T10:10:52</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-06-28T04:26:10</StartDate>
+      <EndDate>1995-07-31T22:52:47</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-08-02T13:06:11</StartDate>
+      <EndDate>1995-08-08T11:50:05</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-08-09T11:46:11</StartDate>
+      <EndDate>1995-10-16T06:22:48</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-10-20T12:26:12</StartDate>
+      <EndDate>1995-11-24T01:51:49</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-11-29T04:26:13</StartDate>
+      <EndDate>1995-12-06T20:40:09</EndDate>
+      <Text>Station has clock problems.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-04-23T01:46:06</StartDate>
+      <EndDate>1995-04-23T18:09:13</EndDate>
+      <Text>Station Calibration in progress.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-12-11T00:00:00</StartDate>
+      <EndDate>1995-12-11T23:59:59</EndDate>
+      <Text>Station Calibration in progress.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1997-06-30T00:00:00</StartDate>
+      <EndDate>1997-07-01T00:00:01</EndDate>
+      <Text>Day contains positive leap second (86401 s/day).</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1998-12-31T00:00:00</StartDate>
+      <EndDate>1998-12-31T23:59:57</EndDate>
+      <Text>Day contains positive leap second (86401 s/day).</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-04-30T17:06:08</StartDate>
+      <EndDate>1995-05-16T06:00:56</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-05-18T11:06:08</StartDate>
+      <EndDate>1995-06-07T20:26:29</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-06-09T12:26:09</StartDate>
+      <EndDate>1995-06-25T10:10:52</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-06-28T04:26:10</StartDate>
+      <EndDate>1995-07-31T22:52:47</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-08-02T13:06:11</StartDate>
+      <EndDate>1995-08-08T11:50:05</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-08-09T11:46:11</StartDate>
+      <EndDate>1995-10-16T06:22:48</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-10-20T12:26:12</StartDate>
+      <EndDate>1995-11-24T01:51:49</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-11-29T04:26:13</StartDate>
+      <EndDate>1995-12-06T20:40:09</EndDate>
+      <Text>Time may be in error by several seconds.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>1995-04-23T18:26:07</StartDate>
+      <EndDate>1995-04-30T17:06:37</EndDate>
+      <Text>Time may be in error from 0 upto 1 second.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+    </iris:StationComments>
+    <Lat>10.2908</Lat>
+    <Lon>-84.9525</Lon>
+    <Elevation>340.0</Elevation>
+    <Site>
+     <Name>Las Juntas de Abangares, Costa Rica</Name>
+    </Site>
+    <Operator>
+     <Agency>(GSN) Global Seismograph Network (IRIS/IDA)</Agency>
+     <Contact>
+      <Name>UNKNOWN</Name>
+     </Contact>
+    </Operator>
+    <CreationDate>1995-04-23T00:00:00</CreationDate>
+    <TotalNumberChannels>67</TotalNumberChannels>
+    <SelectedNumberChannels>1</SelectedNumberChannels>
+    <Channel chan_code="LHZ" restricted="0" loc_code="00">
+     <CreationDate>1995-04-23T00:00:00</CreationDate>
+     <Epoch iris:restricted="0">
+      <StartDate>2009-08-22T20:33:13</StartDate>
+      <EndDate>2010-08-19T16:59:59</EndDate>
+      <Comment>S/N #78908</Comment>
+      <Lat>10.2908</Lat>
+      <Lon>-84.9525</Lon>
+      <Elevation>340.0</Elevation>
+      <Depth>0.0</Depth>
+      <Azimuth>0.0</Azimuth>
+      <Dip>-90.0</Dip>
+      <Output>CONTINUOUS</Output>
+      <Output>GEOPHYSICAL</Output>
+      <SampleRate>1.0</SampleRate>
+      <ClockDrift>5.0E-5</ClockDrift>
+      <CalibrationUnit>V</CalibrationUnit>
+      <Sensor>
+       <EquipType>Streckeisen STS-1 Seismometer with Metrozet E300</EquipType>
+      </Sensor>
+      <InstrumentSensitivity>
+       <SensitivityValue>5.25908E9</SensitivityValue>
+       <Frequency>0.05</Frequency>
+       <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+      </InstrumentSensitivity>
+      <Response stage="1">
+       <PolesZeros>
+        <InputUnits>M/S - Velocity in Meters Per Second</InputUnits>
+        <OutputUnits>V - Volts</OutputUnits>
+        <PzTransferFunctionType>LAPLACE (HZ)</PzTransferFunctionType>
+        <NormalizationFactor>7.92784</NormalizationFactor>
+        <NormalizationFreq>.05</NormalizationFreq>
+        <Pole number="0">
+         <Real>-.00198671</Real>
+         <Imaginary>.00185729</Imaginary>
+        </Pole>
+        <Pole number="1">
+         <Real>-.00198671</Real>
+         <Imaginary>-.00185729</Imaginary>
+        </Pole>
+        <Pole number="2">
+         <Real>-.0239714</Real>
+         <Imaginary>.00472785</Imaginary>
+        </Pole>
+        <Pole number="3">
+         <Real>-.0239714</Real>
+         <Imaginary>-.00472785</Imaginary>
+        </Pole>
+        <Pole number="4">
+         <Real>-6.23</Real>
+         <Imaginary>7.82222</Imaginary>
+        </Pole>
+        <Pole number="5">
+         <Real>-6.23</Real>
+         <Imaginary>-7.82222</Imaginary>
+        </Pole>
+        <Zero number="6">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="7">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="8">
+         <Real>-12.5</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="9">
+         <Real>-.0242718</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="10">
+         <Real>-.0242718</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+       </PolesZeros>
+       <StageSensitivity>
+        <SensitivityValue>3358.49</SensitivityValue>
+        <Frequency>.05</Frequency>
+        <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="2">
+       <StageSensitivity>
+        <SensitivityValue>1</SensitivityValue>
+        <Frequency>.05</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="3">
+       <Coefficients>
+        <InputUnits>V - Volts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1583130</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="4">
+       <Coefficients>
+        <InputUnits>COUNTS - Digital Counts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>.000000000000000121993</Numerator>
+        <Numerator>.000000000316192</Numerator>
+        <Numerator>-.0000000431465</Numerator>
+        <Numerator>-.000000563556</Numerator>
+        <Numerator>-.000126701</Numerator>
+        <Numerator>.00365814</Numerator>
+        <Numerator>.000167531</Numerator>
+        <Numerator>-.00540451</Numerator>
+        <Numerator>.0127861</Numerator>
+        <Numerator>-.0180357</Numerator>
+        <Numerator>.0147312</Numerator>
+        <Numerator>.00322694</Numerator>
+        <Numerator>-.0385969</Numerator>
+        <Numerator>.0888353</Numerator>
+        <Numerator>-.148243</Numerator>
+        <Numerator>.217766</Numerator>
+        <Numerator>.809914</Numerator>
+        <Numerator>.124596</Numerator>
+        <Numerator>-.123041</Numerator>
+        <Numerator>.0889975</Numerator>
+        <Numerator>-.0485016</Numerator>
+        <Numerator>.0142591</Numerator>
+        <Numerator>.00689639</Numerator>
+        <Numerator>-.0144434</Numerator>
+        <Numerator>.0124286</Numerator>
+        <Numerator>-.00656873</Numerator>
+        <Numerator>.00152204</Numerator>
+        <Numerator>.00314209</Numerator>
+        <Numerator>.0000365627</Numerator>
+        <Numerator>-.00000215299</Numerator>
+        <Numerator>-.000000259783</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>15.93</Delay>
+        <Correction>15.93</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - Digital Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+     </Epoch>
+    </Channel>
+   </StationEpoch>
+  </Station>
+ </Network>
+</StaMessage>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<StaMessage xmlns:iris="http://www.www.iris.edu/ws/schemas/station/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.data.scec.org/xml/station/" xsi:schemaLocation="http://www.data.scec.org/xml/station/20120307/ http://www.data.scec.org/xml/station/20120307/station.xsd http://www.iris.edu/ws/schemas/station/2012/03/22/ http://www.iris.edu/ws/schemas/station/2012/03/22/station_comments.xsd">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: http://www.iris.edu/ws/station - version: 1.3.8</Module>
+ <ModuleURI>http://www.iris.edu/ws/station/query?network=G&amp;level=resp&amp;station=HDC&amp;location=00&amp;starttime=2010-02-27T06%3A34%3A14.000&amp;endtime=2010-02-27T09%3A34%3A14.000&amp;channel=LHZ</ModuleURI>
+ <SentDate>2012-10-10T05:15:34</SentDate>
+ <Network net_code="G">
+  <StartDate>1982-01-01T00:00:00</StartDate>
+  <EndDate>2500-12-12T23:59:59</EndDate>
+  <Description>GEOSCOPE</Description>
+  <TotalNumberStations>49</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station net_code="G" sta_code="HDC">
+   <StationEpoch>
+    <StartDate>2002-04-06T00:00:00</StartDate>
+    <EndDate>2599-12-31T23:59:59</EndDate>
+    <iris:StationComments>
+     <iris:Comment>
+      <StartDate>2007-10-30T14:30:00</StartDate>
+      <EndDate>2007-12-31T20:00:00</EndDate>
+      <Text>Frequent spiking on all channels.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2007-08-09T14:50:00</StartDate>
+      <EndDate>2007-10-29T20:50:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2008-10-10T00:00:00</StartDate>
+      <EndDate>2500-12-31T23:59:59</EndDate>
+      <Text>Q330HR + STS-2 SN : 119503</Text>
+      <Class>I</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2008-10-10T00:00:00</StartDate>
+      <EndDate>2500-12-31T23:59:59</EndDate>
+      <Text>Q330HR + STS-2 SN : 119503</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2009-02-22T14:57:33</StartDate>
+      <EndDate>2009-02-22T15:06:31</EndDate>
+      <Text>Station has occasional gaps due to record dropouts.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2008-10-10T00:00:00</StartDate>
+      <EndDate>2599-12-31T23:59:59</EndDate>
+      <Text>Q330HR + STS-2 SN : 119503</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2009-11-30T20:26:00</StartDate>
+      <EndDate>2009-11-30T20:35:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2010-09-14T00:00:00</StartDate>
+      <EndDate>2010-10-14T00:00:00</EndDate>
+      <Text>The station is temporarily interrupted</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2009-11-30T20:26:00</StartDate>
+      <EndDate>2009-11-30T20:35:00</EndDate>
+      <Text>Occasional data loss</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2008-01-27T17:46:00</StartDate>
+      <EndDate>2008-02-02T05:24:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2008-02-24T03:21:00</StartDate>
+      <EndDate>2008-02-28T14:40:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2005-01-01T00:00:00</StartDate>
+      <EndDate>2008-09-19T16:00:00</EndDate>
+      <Text>Frequent spiking on all channels.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2005-04-06T15:00:00</StartDate>
+      <EndDate>2005-04-12T18:00:00</EndDate>
+      <Text>Site maintenance</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-04-06T20:00:00</StartDate>
+      <EndDate>2011-04-08T16:00:00</EndDate>
+      <Text>Occasional data loss due to stormy weather</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-05-09T03:00:00</StartDate>
+      <EndDate>2011-05-11T20:53:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-05-31T07:00:00</StartDate>
+      <EndDate>2011-06-07T16:32:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-06-07T16:35:00</StartDate>
+      <EndDate>2011-06-07T21:10:00</EndDate>
+      <Text>Occasional data loss due to power problems</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-06-09T13:00:00</StartDate>
+      <EndDate>2011-06-10T00:44:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-06-13T04:00:00</StartDate>
+      <EndDate>2011-06-14T09:10:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-07-12T20:20:00</StartDate>
+      <EndDate>2011-07-13T17:18:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2011-07-18T19:09:00</StartDate>
+      <EndDate>2011-07-19T15:00:00</EndDate>
+      <Text>Station is down.</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2012-02-29T18:00:00</StartDate>
+      <EndDate>2012-03-20T16:00:00</EndDate>
+      <Text>Occasional data loss due to power problems</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2012-04-09T17:07:00</StartDate>
+      <EndDate>2012-04-09T17:24:00</EndDate>
+      <Text>Occasional data loss</Text>
+      <Class>S</Class>
+     </iris:Comment>
+     <iris:Comment>
+      <StartDate>2012-06-06T13:00:00</StartDate>
+      <EndDate>2012-06-06T14:00:00</EndDate>
+      <Text>Occasional data loss</Text>
+      <Class>S</Class>
+     </iris:Comment>
+    </iris:StationComments>
+    <Lat>10.00201</Lat>
+    <Lon>-84.11142</Lon>
+    <Elevation>1186.0</Elevation>
+    <Site>
+     <Name>Heredia, Costa Rica</Name>
+    </Site>
+    <Operator>
+     <Agency>GEOSCOPE</Agency>
+     <Contact>
+      <Name>UNKNOWN</Name>
+     </Contact>
+    </Operator>
+    <CreationDate>1997-03-08T00:00:00</CreationDate>
+    <TotalNumberChannels>30</TotalNumberChannels>
+    <SelectedNumberChannels>1</SelectedNumberChannels>
+    <Channel chan_code="LHZ" restricted="0" loc_code="00">
+     <CreationDate>2002-04-06T00:00:00</CreationDate>
+     <Epoch iris:restricted="0">
+      <StartDate>2008-10-10T00:00:00</StartDate>
+      <EndDate>2599-12-31T23:59:59</EndDate>
+      <Lat>10.00207</Lat>
+      <Lon>-84.11139</Lon>
+      <Elevation>1175.7</Elevation>
+      <Depth>0.0</Depth>
+      <Azimuth>0.0</Azimuth>
+      <Dip>-90.0</Dip>
+      <Output>CONTINUOUS</Output>
+      <Output>GEOPHYSICAL</Output>
+      <SampleRate>1.0</SampleRate>
+      <ClockDrift>1.0E-4</ClockDrift>
+      <Sensor>
+       <EquipType>STRECKEISEN STS2</EquipType>
+      </Sensor>
+      <InstrumentSensitivity>
+       <SensitivityValue>2.49503E9</SensitivityValue>
+       <Frequency>0.03</Frequency>
+       <SensitivityUnits>M/S - VELOCITY in Meters Per Second</SensitivityUnits>
+      </InstrumentSensitivity>
+      <Response stage="1">
+       <PolesZeros>
+        <InputUnits>M/S - VELOCITY in Meters Per Second</InputUnits>
+        <OutputUnits>V - Volts</OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RAD/SEC)</PzTransferFunctionType>
+        <NormalizationFactor>349567000000000000</NormalizationFactor>
+        <NormalizationFreq>.03</NormalizationFreq>
+        <Pole number="0">
+         <Real>-.037</Real>
+         <Imaginary>-.037</Imaginary>
+        </Pole>
+        <Pole number="1">
+         <Real>-.037</Real>
+         <Imaginary>.037</Imaginary>
+        </Pole>
+        <Pole number="2">
+         <Real>-15.64</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="3">
+         <Real>-97.34</Real>
+         <Imaginary>-400.7</Imaginary>
+        </Pole>
+        <Pole number="4">
+         <Real>-97.34</Real>
+         <Imaginary>400.7</Imaginary>
+        </Pole>
+        <Pole number="5">
+         <Real>-374.8</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="6">
+         <Real>-520.3</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="7">
+         <Real>-10530</Real>
+         <Imaginary>-10050</Imaginary>
+        </Pole>
+        <Pole number="8">
+         <Real>-10530</Real>
+         <Imaginary>10050</Imaginary>
+        </Pole>
+        <Pole number="9">
+         <Real>-13300</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="10">
+         <Real>-255.097</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Zero number="11">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="12">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="13">
+         <Real>-15.15</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="14">
+         <Real>-176.6</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="15">
+         <Real>-463.1</Real>
+         <Imaginary>-430.5</Imaginary>
+        </Zero>
+        <Zero number="16">
+         <Real>-463.1</Real>
+         <Imaginary>430.5</Imaginary>
+        </Zero>
+       </PolesZeros>
+       <StageSensitivity>
+        <SensitivityValue>1500</SensitivityValue>
+        <Frequency>.03</Frequency>
+        <SensitivityUnits>M/S - VELOCITY in Meters Per Second</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="2">
+       <Coefficients>
+        <InputUnits>V - Volts</InputUnits>
+        <OutputUnits>COUNTS - DIGITAL UNIT in Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1677720</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="3">
+       <Coefficients>
+        <InputUnits>COUNTS - DIGITAL UNIT in Counts</InputUnits>
+        <OutputUnits>COUNTS - DIGITAL UNIT in Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>-.000000000000000122004</Numerator>
+        <Numerator>.0000000000337278</Numerator>
+        <Numerator>-.000000319094</Numerator>
+        <Numerator>.00000126313</Numerator>
+        <Numerator>-.0000148491</Numerator>
+        <Numerator>.00332199</Numerator>
+        <Numerator>.00108323</Numerator>
+        <Numerator>-.00624046</Numerator>
+        <Numerator>.0126566</Numerator>
+        <Numerator>-.0157663</Numerator>
+        <Numerator>.00956762</Numerator>
+        <Numerator>.010711</Numerator>
+        <Numerator>-.0456425</Numerator>
+        <Numerator>.0897523</Numerator>
+        <Numerator>-.132437</Numerator>
+        <Numerator>.155289</Numerator>
+        <Numerator>.812371</Numerator>
+        <Numerator>.185415</Numerator>
+        <Numerator>-.140609</Numerator>
+        <Numerator>.0897083</Numerator>
+        <Numerator>-.0424397</Numerator>
+        <Numerator>.00714001</Numerator>
+        <Numerator>.0121051</Numerator>
+        <Numerator>-.0169307</Numerator>
+        <Numerator>.0127735</Numerator>
+        <Numerator>-.00586424</Numerator>
+        <Numerator>.000645177</Numerator>
+        <Numerator>.00348713</Numerator>
+        <Numerator>-.0000853058</Numerator>
+        <Numerator>.00000229713</Numerator>
+        <Numerator>-.00000022583</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>16.0</Delay>
+        <Correction>16.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - DIGITAL UNIT in Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+     </Epoch>
+    </Channel>
+   </StationEpoch>
+  </Station>
+ </Network>
+</StaMessage>

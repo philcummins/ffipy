@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<StaMessage xmlns:iris="http://www.www.iris.edu/ws/schemas/station/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.data.scec.org/xml/station/" xsi:schemaLocation="http://www.data.scec.org/xml/station/20120307/ http://www.data.scec.org/xml/station/20120307/station.xsd http://www.iris.edu/ws/schemas/station/2012/03/22/ http://www.iris.edu/ws/schemas/station/2012/03/22/station_comments.xsd">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: http://www.iris.edu/ws/station - version: 1.3.8</Module>
+ <ModuleURI>http://www.iris.edu/ws/station/query?network=IU&amp;level=resp&amp;station=LVC&amp;location=00&amp;starttime=2010-02-27T06%3A34%3A14.000&amp;endtime=2010-02-27T09%3A34%3A14.000&amp;channel=LHZ</ModuleURI>
+ <SentDate>2012-10-10T05:15:40</SentDate>
+ <Network net_code="IU">
+  <StartDate>1988-01-01T00:00:00</StartDate>
+  <EndDate>2500-12-12T23:59:59</EndDate>
+  <Description>Global Seismograph Network (GSN - IRIS/USGS)</Description>
+  <TotalNumberStations>91</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station net_code="IU" sta_code="LVC">
+   <StationEpoch>
+    <StartDate>2009-04-10T00:00:00</StartDate>
+    <EndDate>2599-12-31T23:59:59</EndDate>
+    <Lat>-22.6127</Lat>
+    <Lon>-68.9111</Lon>
+    <Elevation>2960.0</Elevation>
+    <Site>
+     <Name>Limon Verde, Chile</Name>
+    </Site>
+    <Operator>
+     <Agency>(GSN) IRIS/USGS (IU), GEOFON (GE), and U of Chile</Agency>
+     <Contact>
+      <Name>UNKNOWN</Name>
+     </Contact>
+    </Operator>
+    <CreationDate>1996-12-02T00:00:00</CreationDate>
+    <TotalNumberChannels>34</TotalNumberChannels>
+    <SelectedNumberChannels>1</SelectedNumberChannels>
+    <Channel chan_code="LHZ" restricted="0" loc_code="00">
+     <CreationDate>2009-04-10T00:00:00</CreationDate>
+     <Epoch iris:restricted="0">
+      <StartDate>2009-04-10T00:00:00</StartDate>
+      <EndDate>2011-01-07T21:08:00</EndDate>
+      <Lat>-22.6127</Lat>
+      <Lon>-68.9111</Lon>
+      <Elevation>2930.0</Elevation>
+      <Depth>30.0</Depth>
+      <Azimuth>0.0</Azimuth>
+      <Dip>-90.0</Dip>
+      <Output>CONTINUOUS</Output>
+      <Output>GEOPHYSICAL</Output>
+      <SampleRate>1.0</SampleRate>
+      <ClockDrift>0.0</ClockDrift>
+      <Sensor>
+       <EquipType>Streckeisen STS-1H/VBB Seismometer</EquipType>
+      </Sensor>
+      <InstrumentSensitivity>
+       <SensitivityValue>4.27835E9</SensitivityValue>
+       <Frequency>0.05</Frequency>
+       <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+      </InstrumentSensitivity>
+      <Response stage="1">
+       <PolesZeros>
+        <InputUnits>M/S - Velocity in Meters Per Second</InputUnits>
+        <OutputUnits>V - Volts</OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RAD/SEC)</PzTransferFunctionType>
+        <NormalizationFactor>3947.38</NormalizationFactor>
+        <NormalizationFreq>.05</NormalizationFreq>
+        <Pole number="0">
+         <Real>-.0137053</Real>
+         <Imaginary>.01234</Imaginary>
+        </Pole>
+        <Pole number="1">
+         <Real>-.0137053</Real>
+         <Imaginary>-.01234</Imaginary>
+        </Pole>
+        <Pole number="2">
+         <Real>-.0189362</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="3">
+         <Real>-.0275162</Real>
+         <Imaginary>0</Imaginary>
+        </Pole>
+        <Pole number="4">
+         <Real>-39.18</Real>
+         <Imaginary>49.12</Imaginary>
+        </Pole>
+        <Pole number="5">
+         <Real>-39.18</Real>
+         <Imaginary>-49.12</Imaginary>
+        </Pole>
+        <Zero number="6">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="7">
+         <Real>0</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="8">
+         <Real>-.0245993</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+        <Zero number="9">
+         <Real>-.0245993</Real>
+         <Imaginary>0</Imaginary>
+        </Zero>
+       </PolesZeros>
+       <StageSensitivity>
+        <SensitivityValue>2550.1</SensitivityValue>
+        <Frequency>.05</Frequency>
+        <SensitivityUnits>M/S - Velocity in Meters Per Second</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="2">
+       <Coefficients>
+        <InputUnits>V - Volts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1677720</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>V - Volts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+      <Response stage="3">
+       <Coefficients>
+        <InputUnits>COUNTS - Digital Counts</InputUnits>
+        <OutputUnits>COUNTS - Digital Counts</OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator>.000000000000000121993</Numerator>
+        <Numerator>.000000000316192</Numerator>
+        <Numerator>-.0000000431465</Numerator>
+        <Numerator>-.000000563556</Numerator>
+        <Numerator>-.000126701</Numerator>
+        <Numerator>.00365814</Numerator>
+        <Numerator>.000167531</Numerator>
+        <Numerator>-.00540451</Numerator>
+        <Numerator>.0127861</Numerator>
+        <Numerator>-.0180357</Numerator>
+        <Numerator>.0147312</Numerator>
+        <Numerator>.00322694</Numerator>
+        <Numerator>-.0385969</Numerator>
+        <Numerator>.0888353</Numerator>
+        <Numerator>-.148243</Numerator>
+        <Numerator>.217766</Numerator>
+        <Numerator>.809914</Numerator>
+        <Numerator>.124596</Numerator>
+        <Numerator>-.123041</Numerator>
+        <Numerator>.0889975</Numerator>
+        <Numerator>-.0485016</Numerator>
+        <Numerator>.0142591</Numerator>
+        <Numerator>.00689639</Numerator>
+        <Numerator>-.0144434</Numerator>
+        <Numerator>.0124286</Numerator>
+        <Numerator>-.00656873</Numerator>
+        <Numerator>.00152204</Numerator>
+        <Numerator>.00314209</Numerator>
+        <Numerator>.0000365627</Numerator>
+        <Numerator>-.00000215299</Numerator>
+        <Numerator>-.000000259783</Numerator>
+       </Coefficients>
+       <Decimation>
+        <InputSampleRate>1</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>15.93</Delay>
+        <Correction>15.93</Correction>
+       </Decimation>
+       <StageSensitivity>
+        <SensitivityValue>1</SensitivityValue>
+        <Frequency>0</Frequency>
+        <SensitivityUnits>COUNTS - Digital Counts</SensitivityUnits>
+       </StageSensitivity>
+      </Response>
+     </Epoch>
+    </Channel>
+   </StationEpoch>
+  </Station>
+ </Network>
+</StaMessage>
